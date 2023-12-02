@@ -12,8 +12,8 @@ app.use(function(req, res, next) {
   next();
 });
 
-const dbUrl = 'mongodb+srv://lxxeugene:Dbwls!6304@cluster-001.isumjls.mongodb.net/';
-// const dbUrl = 'mongodb+srv://myatlasdbuser:abcd4321@cluster0.zrw6v.mongodb.net/';
+// const dbUrl = 'mongodb+srv://lxxeugene:Dbwls!6304@cluster-001.isumjls.mongodb.net/';
+const dbUrl = 'mongodb+srv://myatlasdbuser:abcd4321@cluster0.zrw6v.mongodb.net/';
 
 mongoose.connect(dbUrl, {
   useNewUrlParser: true,
